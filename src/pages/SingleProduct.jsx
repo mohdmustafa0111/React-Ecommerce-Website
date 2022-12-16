@@ -21,6 +21,7 @@ const SingleProduct = () => {
   const { id } = useParams();
 
   const {
+    // eslint-disable-next-line
     id: alias,
     name,
     company,
@@ -34,6 +35,7 @@ const SingleProduct = () => {
 
   useEffect(() => {
     getSingleProduct(`${API}?id=${id}`);
+    // eslint-disable-next-line
   }, []);
 
   if (isSingleLoading) {
