@@ -6,7 +6,7 @@ const About = () => {
   const { myName } = useContext(AppContext);
 
   const data = {
-    name: "Thapa Ecommerce",
+    name: "Angel Ecommerce",
   };
 
   return (
